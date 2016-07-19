@@ -1,0 +1,76 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+$main: #28304F;
+$second: #F2F5FA;
+$iris: #5252CA;
+
+body {
+  padding-top: 50px;
+  background-color: $main;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Ubuntu";
+  color: $iris;
+}
+.page-section {
+  height: 60vh;
+}
+#master-nav {
+  background-color: $main;
+}
+.navbar-default {
+  border-color: $main !important;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2em;
+  color: $second !important;
+}
+.nav-link {
+  font-family: "Ubuntu";
+  font-weight: 100;
+  font-size: 1.4em;
+  color: $second !important;
+}
+#section-one {
+  background-color: $main;
+}
+#section-two {
+  background-color: $second;
+}
+#left-segment-s2 {
+  text-align: justify;
+  padding: 60px;
+}
+.parraph-s-two {
+  font-family: "Roboto";
+  font-size: 1.8em;
+  font-weight: 100;
+}
+#section-three {
+  padding: 0;
+}
+.code {
+  font-family: "Ubuntu";
+}
+#icons-bar {
+  background-color: $second;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.devicon-icon {
+  font-size: 6em;
+  color: $iris !important;
+  margin-left: 50px;
+  margin-right: 50px;
+}
